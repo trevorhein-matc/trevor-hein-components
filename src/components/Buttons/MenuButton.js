@@ -16,5 +16,5 @@ export const MenuButton = (props: Props) => (
 
 MenuButton.propTypes = {
     variant: PropTypes.string,
-    children: PropTypes.node.isRequired
+    // children: PropTypes.node.isRequired
 }

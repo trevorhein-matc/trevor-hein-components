@@ -6,6 +6,7 @@ import Image from '../gatsby-components/image'
 import SEO from '../gatsby-components/seo'
 import { Button, IconButton, Section } from '../components/Element'
 import { Search } from 'styled-icons/feather'
+// import { ShareButtonList } from '../components/SocialShareButton'
 
 const IndexPage = () => (
   <Layout>
@@ -21,6 +22,14 @@ const IndexPage = () => (
       <Button variant="primary">My Custom Button!</Button>
       <IconButton icon={<Search />} />
     </Section>
+
+    {/* <ShareButtonList
+      addThisPubId="ra-5cbb4329610b969c"
+      googleAnalyticsId=""
+      contentTitle="Fake title"
+      contentImage="http://placekitten.com/g/300/700"
+      contentDescription="Your run of the mill click bait."
+    /> */}
   </Layout>
 )
 

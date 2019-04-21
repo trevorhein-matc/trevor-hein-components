@@ -2,10 +2,16 @@ import React from 'react';
 import mastheadImage from "../Gray/images/styled-components.png";
 import { Menu, Search } from "styled-icons/feather";
 import { darken } from 'polished';
+import shareFacebookImage from './images/share_facebook.png'
+import shareTwitterImage from'./images/share_twitter.png'
+import shareMoreImage from './images/share_more.png'
 
 const images = {
-  mastheadImage
-}
+  mastheadImage,
+  shareFacebookImage,
+  shareTwitterImage,
+  shareMoreImage
+};
 
 const icons = {
   Menu: <Menu />,

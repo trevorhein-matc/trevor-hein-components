@@ -16,5 +16,5 @@ export const SearchButton = (props: Props) => (
 
 SearchButton.propTypes = {
     variant: PropTypes.string,
-    children: PropTypes.node.isRequired
+    // children: PropTypes.node.isRequired
 }
