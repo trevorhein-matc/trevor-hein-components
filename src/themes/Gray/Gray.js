@@ -91,6 +91,12 @@ const defaults = {
   },
   text: {
     lineHeight: theme.lineHeights.copy
+  },
+  socialShareButton: {
+    img: {
+      width: '100px',
+      height: 'auto'
+    }
   }
 }
 
