@@ -69,6 +69,9 @@ const theme = {
     short: 'all 0.3s ease-out',
     medium: 'all 0.6s ease-out',
     long: 'all 0.9s ease-out'
+  },
+  a: {
+    width: '100px'
   }
 }
 

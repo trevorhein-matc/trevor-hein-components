@@ -7,6 +7,7 @@ import SEO from '../gatsby-components/seo'
 import { Button, IconButton, Section } from '../components/Element'
 import { Search } from 'styled-icons/feather'
 import { ShareButtonList } from '../components/SocialShareButton'
+import { Box } from 'rebass'
 
 const IndexPage = () => (
   <Layout>
@@ -23,13 +24,20 @@ const IndexPage = () => (
       <IconButton icon={<Search />} />
     </Section>
 
+    <Box
+      width='100px'
+    >
     <ShareButtonList
-      addThisPubId="ra-5cbb4329610b969c"
-      googleAnalyticsId=""
-      contentTitle="Fake title"
-      contentImage="http://placekitten.com/g/300/700"
-      contentDescription="Your run of the mill click bait."
-    />
+        addThisPubId="ra-5cbb4329610b969c"
+        googleAnalyticsId=""
+        contentTitle="Fake title"
+        contentImage="http://placekitten.com/g/300/700"
+        contentDescription="Your run of the mill click bait."
+        justifyContent="center"
+      />
+    </Box>
+
+
   </Layout>
 )
 

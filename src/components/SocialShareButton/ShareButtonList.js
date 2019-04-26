@@ -9,7 +9,7 @@ import {
 } from './index'
 
 export const ShareButtonList = props => (
-    <Flex flexDirection="column">
+    <Flex flexDirection="column" alignItems="center">
         <FacebookShareButton {...props} />
         <TwitterShareButton {...props} />
         <MoreShareButton {...props} />
